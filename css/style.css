@@ -1,11 +1,148 @@
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+   #sidespacing_extra{
+    margin-top:8%
+  }
+ 
+}
+@media only screen and (max-width: 592px) {
+  /* For mobile phones: */
+   #sidespacing_extra{
+    margin-top:13%
+  }
+}
+@media only screen and (max-width: 512px) {
+  /* For mobile phones: */
+   #sidespacing_extra{
+    margin-top:20%
+  }
+  .spe {
+	position: fixed !important;
+	left: 68% !important;
+	top: 20% !important;
+	opacity: 0.5 !important;
+	width: 28% !important;
+	z-index: 100 !important;
+	}
+}
+@media only screen and (max-width: 492px) {
+  /* For mobile phones: */
+   #sidespacing_extra{
+	   
+    margin-top:25%;
+	margin-bottom:0px;
+	font-size:16px;
+  }
+   #sidespacing_extra h3 {font-size:1em}
+}
+@media only screen and (max-width: 412px) {
+  /* For mobile phones: */
+   #sidespacing_extra{
+	   
+    margin-top:28%;
+	margin-bottom:0px;
+	font-size:16px;
+  }
+   #sidespacing_extra h3 {font-size:1em}
+}
+@media only screen and (max-width: 360px) {
+  /* For mobile phones: */
+   #sidespacing_extra{
+	   
+    margin-top:30%;
+	margin-bottom:-8%;
+	font-size:16px;
+  }
+   #sidespacing_extra h3 {margin-top:10%;font-size:1em}
+    .carousel-caption {bottom:-8% !important}
+}
 body {
 	box-sizing: border-box !important;
 	width:100%;
 	background: #f1f1f1; 
+	text-align:justify;
 }
-
+.spe {
+	position: fixed;
+	left: 10px;
+	top:40%;
+	opacity:0.5;
+	width:10%;
+	z-index:1;
+	}
+.spec {
+	position: fixed;
+	right: 5px;
+	top:40%;
+	
+	color:black;
+	z-index:1;
+	
+}
+.spec:hover{
+	position: fixed;
+	right: 5px;
+	top:40%;
+	
+	color:black;
+	z-index:1;
+	
+}
+.spec i{
+	opacity:0.5;
+	border-radius:50%;
+	text-align:center;
+}
+.spec i:hover{
+	opacity:1;
+	border-radius:50%;
+	text-align:center;
+}		
 .container { margin-top:10px}
-
+#sidespacing_extra {
+	 padding-left:0px !important; 
+	 padding-right:0px !important 
+}
+#align_about{
+	marign-right:10px;
+	marign-left:10px;
+	align-self-center
+}
+#collapsibleNavbar .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+	color: rgba(255, 255, 255, 1);
+	
+	font-weight:bold;
+}
+#collapsibleNavbar .nav-link:active {
+    background-color: rgba(0, 0, 0, 0.5);
+	color: rgba(255, 255, 255, 1);
+	font-weight:bold;
+}
+#course_detatils a{
+	transform: scale(0.9);
+	margin-right:0px !important;
+	margin-left:0px !important;
+}
+#course_detatils a:hover{
+	transform: scale(1);
+	margin-right:0px !important;
+	margin-left:0px !important;
+}
+#client_images img {
+	transform: scale(0.9);
+	margin-right:0px !important;
+	margin-left:0px !important;
+	
+}
+#client_images img:hover {
+	transform: scale(1);
+	margin-right:0px !important;
+	margin-left:0px !important;
+	
+}
+.darkred {color:#8b0000 !important}
+.darkred:hover {color:#820436 !important}
 .pssh {
 	color:#000;
 	/* background-color:#015961; */
