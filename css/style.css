@@ -5,10 +5,7 @@ body {
 }
 
 .container { margin-top:10px}
-.container-fluid {
-	padding-left:0px !important;
-	padding-right:0px !important
-}
+
 .pssh {
 	color:#000;
 	/* background-color:#015961; */
